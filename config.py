@@ -13,17 +13,17 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "KIra_musicbot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "KIra_probot")
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 69990))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1002111252622))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1002040932096)
 
 # Get this value from @MissRose_Bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7151338995))
+OWNER_ID = int(getenv("OWNER_ID", 6253265083))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -63,7 +63,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = getenv("STRING_SESSION", "BQF64-sAppV4ElYT8r6vodSA4EEGA4119jXaATGHj7zmNIblJivEyJ4uF5yNWjexYbkplKPy0g0ID06a1INOww1Pw_PryyoPftnyoubncEoAvwwwgVNngM8RmkltiwB4QcRWKYKsD6_Q3q39PV1HgfCJFZxJHWjZxY6stQlOP8XzIxQAMxg20Mmu02n8R54Z3PTDNpFCJrCwCnbaSM4u8MRl7CzVz0x2bsWdljMqC7_bvL24054dwVD0x0lqHD-m0lBlcDzsZErW70otu8YeuFr-Ji3QDsobkPZMiaYKjmZrd_9-hHedQ59gAg_E1W0K8XvF4Jqhgo5C0VJ3P5TKUtICmCBQAAAAG0EGmkAA")
+STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -115,3 +115,4 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
